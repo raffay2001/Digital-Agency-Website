@@ -1,0 +1,159 @@
+body{
+    font-family: "Poppins";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR AND HOME SECTION */
+.navbar{
+    background-color:  rgba(33,37,41,0.8) !important;
+    color: black !important;
+}
+
+.intro {
+    margin: 0;
+}
+
+.home {
+    margin: 10rem 0 5rem 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content .head{
+    font-weight: 900;
+}
+
+.content .para{
+    font-style: italic;
+}
+
+.button{
+    margin-top:0.8rem;
+    border-radius: 1rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav li a {
+    padding: 0 2rem !important;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.navbar-nav li a:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.navbar-brand{
+    font-size: 2rem !important;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* SERVICES SECTION  */
+
+#services{
+    padding: 2rem;
+}
+
+.service-head{
+    font-size: 3rem;
+    font-weight: 1000;
+    border-left: 3px solid white;
+    margin: 0 0 4rem 1rem;
+}
+
+.ser{
+    padding: 2rem 2rem;
+}
+
+/* .ser p{
+    font-style: italic;
+} */
+
+.btn{
+    margin-top: 1rem !important;
+}
+
+.rounded{
+    border-radius: 1rem !important;
+}
+
+/* ABOUT SECTION  */
+
+.col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col2 div p{
+    font-size: 1.12rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.about-head{
+    font-size: 3rem;
+    font-weight: 1000;
+    margin: 4rem 0 3.5rem 2.5rem;
+    border-left: 3px solid black;
+}
+
+.about_row{
+    margin-bottom: 5rem;
+}
+
+/* CONTACT SECTION   */
+#contact{
+    padding: 0.6rem 0;
+}
+
+
+.contact-head{
+    font-size: 3rem;
+    font-weight: 1000;
+    margin: 2rem 0 2rem 2.5rem;
+    border-left: 3px solid white;
+}
+
+.contact-col{
+    margin-top: 2rem;
+}
+
+.btn-success{
+    padding: 0.5rem 2rem;
+}
+
+.contact-col1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.contact-col1 img{
+    border-radius: 2rem !important;
+}
+
+/* FOOTER  */
+#footer{
+    padding: 2rem 0;
+}
